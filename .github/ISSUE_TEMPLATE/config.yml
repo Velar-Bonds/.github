@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📚 Documentación
+    url: https://github.com/Velar-Bonds/velar-docs
+    about: Antes de abrir un issue, revisá la documentación.
