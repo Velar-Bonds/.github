@@ -1,0 +1,34 @@
+name: 🚀 Feature
+description: Nueva funcionalidad o mejora
+title: "[feat]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por proponer una mejora a VELAR. Revisá [CONTRIBUTING.md](https://github.com/Velar-Bonds/.github/blob/main/CONTRIBUTING.md).
+  - type: dropdown
+    id: repo
+    attributes:
+      label: ¿En qué repo aplica?
+      options:
+        - Velar (app)
+        - velar-contracts
+        - velar-docs
+        - velar-spec
+        - velar-examples
+        - velar-brand
+        - Otro
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema o oportunidad
+      placeholder: "Como [rol], necesito..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solución propuesta
+    validations:
+      required: true

@@ -1,5 +1,11 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: 📚 Documentación
     url: https://github.com/Velar-Bonds/velar-docs
-    about: Antes de abrir un issue, revisá la documentación.
+    about: Guías, arquitectura y variables de entorno
+  - name: 🧪 Ejemplos
+    url: https://github.com/Velar-Bonds/velar-examples
+    about: Scripts de integración y demo flow
+  - name: 💬 Discusiones (Velar)
+    url: https://github.com/Velar-Bonds/Velar/discussions
+    about: Preguntas generales sobre el producto
